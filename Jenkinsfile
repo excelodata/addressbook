@@ -34,7 +34,7 @@ node {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean test/)
 >>>>>>> c618cbe7fefbbff7a5530f00ef38639b7f80756d
       }
-    } // withMaven will discover the generated Maven artifacts, JUnit reports and FindBugs reports
+    } // withMaven will discover the generated Maven artifacts, JUnit reports and FindBugs reports.
     
 
    }
